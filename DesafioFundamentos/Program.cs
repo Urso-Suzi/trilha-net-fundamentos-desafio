@@ -45,6 +45,7 @@ while (exibirMenu)
 
         case "4":
             exibirMenu = false;
+            Console.WriteLine("Fechando o Programa");
             break;
 
         default:
@@ -52,7 +53,7 @@ while (exibirMenu)
             break;
     }
 
-    Console.WriteLine("Pressione uma tecla para continuar");
+    Console.WriteLine("Pressione Enter para continuar");
     Console.ReadLine();
 }
 
